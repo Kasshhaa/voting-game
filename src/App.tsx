@@ -29,7 +29,7 @@ import Footer from "./Footer";
 // `npm run deploycontract` to get deployment transaction id
 const contract_id = {
   /** The deployment transaction id */
-  txId: "65d80537b63bc7fe12280826cdb9fa4424add5c08def0340ddc8444908c03d9e",
+  txId: "8b81209c89521898cd8791bf747c9c24693774f9f3eb195204cb9d3768dff9bb",
   /** The output index */
   outputIndex: 0,
 };
@@ -155,7 +155,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h2>What's your favorite phone?</h2>
+        <h2>What's your favorite colour?</h2>
       </header>
       <TableContainer
         component={Paper}
@@ -165,8 +165,8 @@ function App() {
         <Table>
           <TableHead>
             <TableRow>
-              <TableCell align="center">iPhone</TableCell>
-              <TableCell align="center">Android</TableCell>
+              <TableCell align="center">Yellow</TableCell>
+              <TableCell align="center">Pink</TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
@@ -178,8 +178,8 @@ function App() {
                       height: 200,
                     }}
                     component="img"
-                    alt={"iphone"}
-                    src={`${process.env.PUBLIC_URL}/${"iphone"}.png`}
+                    alt={"yellow"}
+                    src={`${process.env.PUBLIC_URL}/${"yellow"}.png`}
                   />
                 </Box>
               </TableCell>
@@ -190,8 +190,8 @@ function App() {
                       height: 200,
                     }}
                     component="img"
-                    alt={"android"}
-                    src={`${process.env.PUBLIC_URL}/${"android"}.png`}
+                    alt={"pink"}
+                    src={`${process.env.PUBLIC_URL}/${"pink"}.png`}
                   />
                 </Box>
               </TableCell>
