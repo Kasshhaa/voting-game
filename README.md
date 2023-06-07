@@ -74,3 +74,4 @@ Runs the app in the development mode. Open [http://localhost:3000](http://localh
 ![](https://aaron67-public.oss-cn-beijing.aliyuncs.com/202305060521385.gif)
 
 If you're interested in how to build this dApp step by step, please refer to this [guide](https://scrypt.io/docs/tutorials/voting/) for more details.
+# voting-game
